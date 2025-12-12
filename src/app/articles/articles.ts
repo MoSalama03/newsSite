@@ -1,19 +1,20 @@
 import { Component } from '@angular/core';
 import { Article } from '../../shared/types';
+import { Nav } from '../nav/nav';
 
 @Component({
   selector: 'app-articles',
-  imports: [],
+  imports: [Nav],
   templateUrl: './articles.html',
   styleUrl: './articles.css',
 })
 export class Articles {
   Articles: Article[] = [
     {
-      Heading: 'Breaking News: Major Event Unfolds',
-      SubHeading: 'Details about the major event that has just occurred.',
-      ImageUrl: 'assets/images/article1.jpg',
-      ArticleUrl: 'https://newswebsite.com/article1',
+      Heading: 'Global Health Organization Declares New Viral Strain Contained',
+      SubHeading: 'Rapid deployment of new diagnostic kits credited with preventing widespread community transmission in key global hubs.',
+      ImageUrl: '/assets/images/health/viral_containment_chart.jpg',
+      ArticleUrl: '/news/health/viral-strain-contained-nov2025',
     },
   ];
 

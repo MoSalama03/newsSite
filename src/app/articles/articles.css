@@ -1,0 +1,10 @@
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  gap: 33px;
+}
