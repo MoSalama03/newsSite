@@ -16,6 +16,12 @@ export class Articles {
       ImageUrl: '/assets/images/health/viral_containment_chart.jpg',
       ArticleUrl: '/news/health/viral-strain-contained-nov2025',
     },
+    {
+      Heading: 'Breakthrough in Renewable Energy: Fusion Reactor Achieves Net Positive Output',
+      SubHeading: 'Scientists celebrate as the latest fusion reactor design sustains energy production beyond input levels for the first time.',
+      ImageUrl: '/assets/images/energy/fusion_reactor.jpg',
+      ArticleUrl: '/news/energy/fusion-reactor-breakthrough-nov2025',
+    },
   ];
 
 }
